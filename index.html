@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="kindergarten-website-template" />
+    <link rel="shortcut icon" href="img/header.png" type="image/x-icon" />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- import css files -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>KidKinder - Kindergarten Website Template</title>
+  </head>
+  <body>
+    <!-- Start navbar -->
+    <nav class="navbar navbar-expand-lg bg-light shadow-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand fs-1 fw-bold" href="/">KidKinder</a>
+        <button
+          class="navbar-toggler shadow-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0 p-0">
+            <li class="nav-item">
+              <a
+                class="nav-link py-2 px-3 fw-bold text-black active"
+                aria-current="page"
+                href="/"
+                >Главная</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link py-2 px-3 fw-bold text-black" href="#about"
+                >О нас</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link py-2 px-3 fw-bold text-black"
+                href="#class"
+                >Классы</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link py-2 px-3 fw-bold text-black"
+                href="#teacher"
+                >Учителя</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link py-2 px-3 fw-bold text-black"
+                href="gallery.html"
+                >Галлерея</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link py-2 px-3 fw-bold text-black"
+                href="#contact"
+                >Контакты</a
+              >
+            </li>
+          </ul>
+          <a
+            href="#"
+            class="main-link mb-2 mb-lg-0 d-inline-block text-decoration-none text-white py-2 px-4 rounded-pill"
+            >Записаться</a
+          >
+        </div>
+      </div>
+    </nav>
+    <!-- End navbar -->
+
+    <!-- Start Landing -->
+    <section class="landing text-white">
+      <div class="container mh-100 d-flex align-items-center">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="content">
+              <div class="title fs-4" data-aos="fade-right">
+                Детский учебный центр
+              </div>
+              <h1 class="display-3 fw-bold" data-aos="fade-left">
+                Новый подход к образованию детей
+              </h1>
+              <p data-aos="fade-up-right">
+                Мы считаем, что каждый ребенок имеет право на индивидуальный подход в обучении, и мы стремимся создать комфортную и безопасную среду, где ваш малыш может раскрыть свой потенциал, 
+                развить творческие способности и получить качественное образование. 
+              </p>
+              <a
+                href="#"
+                class="second-link text-decoration-none text-white d-inline-block py-3 px-5 rounded-pill"
+                >Подробнее</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="image">
+              <img src="img/header.png" class="img-fluid" alt="img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Landing -->
+
+    <!-- Start Features -->
+    <div class="features">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+          <div class="col p-3">
+            <div
+              class="item h-100 d-flex gap-3 bg-light shadow p-4 rounded"
+              data-aos="fade-down-right"
+            >
+              <div class="flex-shrink-0">
+                <i class="fa-solid fa-address-card fa-2xl"></i>
+              </div>
+              <div class="flex-grow-1">
+                <div class="h4">Детская площадка</div>
+                <p class="lh-lg text-muted">
+                  Детская площадка в нашем детском саду - это место, 
+                  где ваш ребенок может расслабиться, развлечься и получить массу эмоций.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col p-3">
+            <div
+              class="item h-100 d-flex gap-3 bg-light shadow p-4 rounded"
+              data-aos="fade-down"
+            >
+              <div class="flex-shrink-0">
+                <i class="fa-regular fa-calendar-check fa-2xl"></i>
+              </div>
+              <div class="flex-grow-1">
+                <div class="h4">Музыка и танцы</div>
+                <p class="lh-lg text-muted">
+                  В нашем детском саду мы организовываем музыкальные и танцевальные 
+                  выступления, конкурсы и представления
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col p-3">
+            <div
+              class="item h-100 d-flex gap-3 bg-light shadow p-4 rounded"
+              data-aos="fade-up"
+            >
+              <div class="flex-shrink-0">
+                <i class="fa-brands fa-apple fa-2xl"></i>
+              </div>
+              <div class="flex-grow-1">
+                <div class="h4">Здоровое питание</div>
+                <p class="lh-lg text-muted">
+                  В нашем детском саду мы уделяем особое внимание качеству и разнообразию 
+                  питания, чтобы дети получали все необходимые витамины и питательные вещества.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col p-3">
+            <div
+              class="item h-100 d-flex gap-3 bg-light shadow p-4 rounded"
+              data-aos="fade-up-left"
+            >
+              <div class="flex-shrink-0">
+                <i class="fa-brands fa-app-store-ios fa-2xl"></i>
+              </div>
+              <div class="flex-grow-1">
+                <div class="h4">Educational Tour</div>
+                <p class="lh-lg text-muted">
+                  В нашем детском саду мы предлагаем детям множество разнообразных развлечений помимо обычных занятий. Мы организовываем различные мероприятия и мероприятия в течение всего года для того,
+                   чтобы дети могли развиваться и получить максимум удовольствия. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Features -->
+
+    <!-- Start About Us -->
+    <div class="about-us bg-light" id="about">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-lg-2">
+          <div class="col p-3 d-flex align-items-center" data-aos="fade-right">
+            <div class="item text-center">
+              <img src="img/blog-2.jpg" class="img-fluid" alt="img" />
+            </div>
+          </div>
+
+          <div class="col p-3" data-aos="fade-left">
+            <div class="main-heading">
+              <span
+                class="special text-uppercase position-relative d-inline-block px-2"
+                >Узнайте о нас</span
+              >
+              <h2 class="fw-bold my-3">Лучший Детский Сад для ваших детей</h2>
+            </div>
+
+            <div class="content">
+              <p class="text-muted m-0 m-auto">
+                Наш детский сад - это место, где ваш ребенок найдет заботу, внимание и лучшие условия для развития своих талантов и способностей. Мы являемся лучшим выбором для родителей, которые ищут надежный, качественный и профессиональный детский сад для своих детей.
+              </p>
+              <div class="d-flex my-4 gap-3 flex-column flex-md-row">
+                <div class="flex-shrink-0">
+                  <img src="img/about-2.jpg" alt="img" />
+                </div>
+                <div class="flex-grow-1">
+                  <div
+                    class="item py-2 px-4 position-relative d-flex align-items-center border-top justify-content-center justify-content-md-start"
+                  >
+                    Labore eos amet dolor amet diam
+                  </div>
+                  <div
+                    class="item py-2 px-4 position-relative d-flex align-items-center border-top justify-content-center justify-content-md-start"
+                  >
+                    Labore eos amet dolor amet diam
+                  </div>
+                  <div
+                    class="item py-2 px-4 position-relative d-flex align-items-center border-top justify-content-center justify-content-md-start"
+                  >
+                    Labore eos amet dolor amet diam
+                  </div>
+                </div>
+              </div>
+              <a
+                href="#"
+                class="main-link mb-2 mb-lg-0 d-inline-block text-decoration-none text-white py-2 px-4 rounded-pill"
+                >Записаться</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End About Us -->
+
+    <!-- Start popular classes -->
+    <div class="popular-classes" id="class">
+      <div class="container">
+        <div class="main-heading text-center">
+          <span class="text-uppercase position-relative d-inline-block px-2"
+            >Популярные кружки</span
+          >
+          <h2 class="fw-bold my-3">Кружки для ваших деток</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+          <div class="col p-3">
+            <div
+              class="class bg-light text-center rounded overflow-hidden border"
+              data-aos="fade-right"
+            >
+              <div class="image">
+                <img src="img/class-1.jpg" class="img-fluid" alt="img" />
+              </div>
+              <div class="content p-4">
+                <h3 class="m-0">Кружок рисования</h3>
+                <!-- <p class="py-4 text-muted border-bottom">
+                  Justo ea diam stet diam ipsum no sit, ipsum vero et et diam
+                  ipsum duo et no et, ipsum ipsum erat duo amet clita duo
+                </p> -->
+                <div class="list mb-3">
+                  <div class="item border-bottom d-flex">
+                    <span class="fw-bold py-2">Возраст</span>
+                    <span class="py-2">3 - 6 лет</span>
+                  </div>
+                  <div class="item border-bottom d-flex">
+                    <span class="fw-bold py-2">Всего посещений</span>
+                    <span class="py-2">40 посещений</span>
+                  </div>
+                  <div class="item border-bottom d-flex">
+                    <span class="fw-bold py-2">Время проведения</span>
+                    <span class="py-2">08:00 - 10:00</span>
+                  </div>
+                  <div class="item border-bottom d-flex">
+                    <span class="fw-bold py-2">Стоимость</span>
+                    <span class="py-2">$290 / Месяц</span>
+                  </div>
+                </div>
+                <a
+                  href="#"
+                  class="main-link mb-2 mb-lg-0 d-inline-block text-decoration-none text-white py-2 px-4 rounded-pill"
+                  >Присоединиться</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col p-3">
+            <div
+              class="class bg-light text-center rounded overflow-hidden border"
+              data-aos="fade-up"
+            >
+              <div class="image">
+                <img src="img/class-2.jpg" class="img-fluid" alt="img" />
+              </div>
+              <div class="content p-4">
+                <h3 class="m-0">Иностранный языка</h3>
+                <!-- <p class="py-4 text-muted border-bottom">
+                  Justo ea diam stet diam ipsum no sit, ipsum vero et et diam
+                  ipsum duo et no et, ipsum ipsum erat duo amet clita duo
+                </p> -->
+                <div class="list mb-3">
+                  <div class="item border-bottom d-flex">
+                    <span class="fw-bold py-2">Возраст</span>
+                    <span class="py-2">5 - 6 лет</span>
+                  </div>
+                  <div class="item border-bottom d-flex">
+                    <span class="fw-bold py-2">Всего посещений</span>
+                    <span class="py-2">50 посещений</span>
+                  </div>
+                  <div class="item border-bottom d-flex">
+                    <span class="fw-bold py-2">Время проведения</span>
+                    <span class="py-2">10:00 - 11:00</span>
+                  </div>
+                  <div class="item border-bottom d-flex">
+                    <span class="fw-bold py-2">Стоимость</span>
+                    <span class="py-2">$100 / Месяц</span>
+                  </div>
+                </div>
+                <a
+                  href="#"
+                  class="main-link mb-2 mb-lg-0 d-inline-block text-decoration-none text-white py-2 px-4 rounded-pill"
+                  >Присоединиться</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col p-3">
+            <div
+              class="class bg-light text-center rounded overflow-hidden border"
+              data-aos="fade-left"
+            >
+              <div class="image">
+                <img src="img/class-3.jpg" class="img-fluid" alt="img" />
+              </div>
+              <div class="content p-4">
+                <h3 class="m-0">Фундаментальная наука</h3>
+                <div class="list mb-3">
+                  <div class="item border-bottom d-flex">
+                    <span class="fw-bold py-2">Возраст</span>
+                    <span class="py-2">3 - 6 лет</span>
+                  </div>
+                  <div class="item border-bottom d-flex">
+                    <span class="fw-bold py-2">Всего посещений</span>
+                    <span class="py-2">30 посещений</span>
+                  </div>
+                  <div class="item border-bottom d-flex">
+                    <span class="fw-bold py-2">Время проведения</span>
+                    <span class="py-2">10:00 - 11:00</span>
+                  </div>
+                  <div class="item border-bottom d-flex">
+                    <span class="fw-bold py-2">Стоимость</span>
+                    <span class="py-2">$200 / Месяц</span>
+                  </div>
+                </div>
+                <a
+                  href="#"
+                  class="main-link mb-2 mb-lg-0 d-inline-block text-decoration-none text-white py-2 px-4 rounded-pill"
+                  >Присоединиться</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End popular classes -->
+
+    <!-- Start Book Seat -->
+    <div class="book-seat bg-light" id="join">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 p-3">
+            <div class="box" data-aos="fade-up-right">
+              <div class="main-heading">
+                <span
+                  class="special text-uppercase position-relative d-inline-block px-2"
+                  >Забронировать место</span
+                >
+                <h2 class="fw-bold my-3">Забронируйте место для вашего ребенка</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 p-3">
+            <form
+              class="text-center rounded overflow-hidden"
+              data-aos="fade-up-left"
+            >
+              <h2 class="text-white p-4">Забронировать место</h2>
+              <div class="p-5">
+                <input
+                  class="form-control p-3 m-3 shadow-none"
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Имя"
+                />
+                <input
+                  class="form-control p-3 m-3 shadow-none"
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Эл. адрес"
+                />
+                <select
+                  class="form-select p-3 m-3 shadow-none"
+                  name="select"
+                  id="select"
+                >
+                  <option value="">Выбрать группу</option>
+                  <option value="">Группа 1</option>
+                  <option value="">Группа 2</option>
+                  <option value="">Группа 3</option>
+                </select>
+                <a
+                  href="#"
+                  class="second-link p-3 m-3 d-block w-100 text-decoration-none text-white rounded-pill"
+                  >Записаться</a
+                >
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Book Seat -->
+
+    <!-- Start Our teachres -->
+    <div class="our-teachers" id="teacher">
+      <div class="container">
+        <div class="main-heading text-center">
+          <span class="text-uppercase position-relative d-inline-block px-2"
+            >Наши учителя</span
+          >
+          <h2 class="fw-bold my-3">Встречайте Наши учителя</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
+          <div class="col p-3">
+            <div class="item text-center">
+              <div class="image position-relative">
+                <img
+                  src="img/team-1.jpg"
+                  class="img-fluid w-100 rounded-circle"
+                  alt="img"
+                />
+                <div
+                  class="overlay position-absolute top-0 start-0 w-100 h-100 rounded-circle d-flex justify-content-center align-items-center"
+                >
+                  <div>
+                    <i
+                      class="fa-brands fa-facebook-f text-white border p-2 m-1 rounded-circle"
+                    ></i>
+                    <i
+                      class="fa-brands fa-linkedin-in text-white border p-2 m-1 rounded-circle"
+                    ></i>
+                    <i
+                      class="fa-brands fa-twitter text-white border p-2 m-1 rounded-circle"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+              <div class="fw-bold my-3 h4">Джулия Смит</div>
+              <div class="fst-italic text-muted">Няня</div>
+            </div>
+          </div>
+          <div class="col p-3">
+            <div class="item text-center">
+              <div class="image position-relative">
+                <img
+                  src="img/team-2.jpg"
+                  class="img-fluid w-100 rounded-circle"
+                  alt="img"
+                />
+                <div
+                  class="overlay position-absolute top-0 start-0 w-100 h-100 rounded-circle d-flex justify-content-center align-items-center"
+                >
+                  <div>
+                    <i
+                      class="fa-brands fa-facebook-f text-white border p-2 m-1 rounded-circle"
+                    ></i>
+                    <i
+                      class="fa-brands fa-linkedin-in text-white border p-2 m-1 rounded-circle"
+                    ></i>
+                    <i
+                      class="fa-brands fa-twitter text-white border p-2 m-1 rounded-circle"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+              <div class="fw-bold my-3 h4">Илн Цукерберг</div>
+              <div class="fst-italic text-muted">Музыкальный препод</div>
+            </div>
+          </div>
+          <div class="col p-3">
+            <div class="item text-center">
+              <div class="image position-relative">
+                <img
+                  src="img/team-3.jpg"
+                  class="img-fluid w-100 rounded-circle"
+                  alt="img"
+                />
+                <div
+                  class="overlay position-absolute top-0 start-0 w-100 h-100 rounded-circle d-flex justify-content-center align-items-center"
+                >
+                  <div>
+                    <i
+                      class="fa-brands fa-facebook-f text-white border p-2 m-1 rounded-circle"
+                    ></i>
+                    <i
+                      class="fa-brands fa-linkedin-in text-white border p-2 m-1 rounded-circle"
+                    ></i>
+                    <i
+                      class="fa-brands fa-twitter text-white border p-2 m-1 rounded-circle"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+              <div class="fw-bold my-3 h4">Алекса Грейси</div>
+              <div class="fst-italic text-muted">Учитель по рисованию</div>
+            </div>
+          </div>
+          <div class="col p-3">
+            <div class="item text-center">
+              <div class="image position-relative">
+                <img
+                  src="img/team-4.jpg"
+                  class="img-fluid w-100 rounded-circle"
+                  alt="img"
+                />
+                <div
+                  class="overlay position-absolute top-0 start-0 w-100 h-100 rounded-circle d-flex justify-content-center align-items-center"
+                >
+                  <div>
+                    <i
+                      class="fa-brands fa-facebook-f text-white border p-2 m-1 rounded-circle"
+                    ></i>
+                    <i
+                      class="fa-brands fa-linkedin-in text-white border p-2 m-1 rounded-circle"
+                    ></i>
+                    <i
+                      class="fa-brands fa-twitter text-white border p-2 m-1 rounded-circle"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+              <div class="fw-bold my-3 h4">Джек Касмус</div>
+              <div class="fst-italic text-muted">Учитель по фундаментальным знаниям</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Our teachres -->
+
+    <!-- Start Testimonials -->
+    <!-- End Testimonials -->
+
+    <!-- Start latest articles -->
+    <div class="articles" id="blog">
+      <div class="container">
+        <div class="main-heading text-center">
+          <span class="text-uppercase position-relative d-inline-block px-2"
+            >Последний блог</span
+          >
+          <h2 class="fw-bold my-3">Последние статьи из блога</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+          <div class="col p-3">
+            <div
+              class="item text-center rounded overflow-hidden bg-light border"
+              data-aos="zoom-in"
+            >
+              <div class="image">
+                <img src="img/blog-1.jpg" class="img-fluid" alt="img" />
+              </div>
+              <div class="content p-4">
+                <div class="h5 fw-bold">Diam amet eos at no eos</div>
+                <p class="my-3">
+                  Sed kasd sea sed at elitr sed ipsum justo, sit nonumy diam
+                  eirmod, duo et sed sit eirmod kasd clita tempor dolor stet
+                  lorem. Tempor ipsum justo amet stet...
+                </p>
+                <a
+                  href="#"
+                  class="main-link mb-2 mb-lg-0 d-inline-block text-decoration-none text-white py-2 px-4 rounded-pill"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col p-3">
+            <div
+              class="item text-center rounded overflow-hidden bg-light border"
+              data-aos="zoom-in"
+            >
+              <div class="image">
+                <img src="img/blog-2.jpg" class="img-fluid" alt="img" />
+              </div>
+              <div class="content p-4">
+                <div class="h5 fw-bold">Diam amet eos at no eos</div>
+                <p class="my-3">
+                  Sed kasd sea sed at elitr sed ipsum justo, sit nonumy diam
+                  eirmod, duo et sed sit eirmod kasd clita tempor dolor stet
+                  lorem. Tempor ipsum justo amet stet...
+                </p>
+                <a
+                  href="#"
+                  class="main-link mb-2 mb-lg-0 d-inline-block text-decoration-none text-white py-2 px-4 rounded-pill"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col p-3">
+            <div
+              class="item text-center rounded overflow-hidden bg-light border"
+              data-aos="zoom-in"
+            >
+              <div class="image">
+                <img src="img/blog-3.jpg" class="img-fluid" alt="img" />
+              </div>
+              <div class="content p-4">
+                <div class="h5 fw-bold">Diam amet eos at no eos</div>
+                <p class="my-3">
+                  Sed kasd sea sed at elitr sed ipsum justo, sit nonumy diam
+                  eirmod, duo et sed sit eirmod kasd clita tempor dolor stet
+                  lorem. Tempor ipsum justo amet stet...
+                </p>
+                <a
+                  href="#"
+                  class="main-link mb-2 mb-lg-0 d-inline-block text-decoration-none text-white py-2 px-4 rounded-pill"
+                  >Read More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End latest articles -->
+
+    <!-- Start Footer -->
+    <footer>
+      <div class="container text-white" id="contact">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+          <div class="col p-3">
+            <div class="box">
+              <a
+                class="display-5 fw-bold text-decoration-none text-white"
+                href="#"
+                >KidKinder</a
+              >
+              <p class="my-3">
+                Labore dolor amet ipsum ea, erat sit ipsum duo eos. Volup amet
+                ea dolor et magna dolor, elitr rebum duo est sed diam elitr.
+                Stet elitr stet diam duo eos rebum ipsum diam ipsum elitr.
+              </p>
+              <ul class="list-unstyled mb-0 p-0 d-flex gap-2">
+                <li>
+                  <a href="#" aria-label="facebook-icon">
+                    <i
+                      class="fa-brands fa-facebook-f text-white border rounded-circle p-2"
+                    >
+                    </i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" aria-label="instagram-icon">
+                    <i
+                      class="fa-brands fa-instagram text-white border rounded-circle p-2"
+                    >
+                    </i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" aria-label="twitter-icon">
+                    <i
+                      class="fa-brands fa-twitter text-white border rounded-circle p-2"
+                    >
+                    </i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" aria-label="linkedin-icon">
+                    <i
+                      class="fa-brands fa-linkedin-in text-white border rounded-circle p-2"
+                    >
+                    </i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col p-3">
+            <div class="box">
+              <div class="title fw-bold h4">Связаться</div>
+              <div class="address d-flex mt-3 gap-3">
+                <div class="flex-shrink-0">
+                  <i class="icon fa-solid fa-location-dot fa-xl"></i>
+                </div>
+                <div class="flex-grow-1">
+                  <div class="h4">Адрес</div>
+                  <div>Молодая Гвардия А120</div>
+                </div>
+              </div>
+              <div class="email d-flex mt-3 gap-3">
+                <div class="flex-shrink-0">
+                  <i class="icon fa-solid fa-envelope fa-xl"></i>
+                </div>
+                <div class="flex-grow-1">
+                  <div class="h4">Эл адрес</div>
+                  <div>kidkin@gmail.com</div>
+                </div>
+              </div>
+              <div class="phone d-flex mt-3 gap-3">
+                <div class="flex-shrink-0">
+                  <i class="icon fa-solid fa-phone fa-xl"></i>
+                </div>
+                <div class="flex-grow-1">
+                  <div class="h4">Телефон</div>
+                  <div>+996 709 23 54 86</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col p-3">
+            <div class="box">
+              <div class="title fw-bold h4">Ссылки</div>
+              <div class="links">
+                <a
+                  href="/"
+                  class="d-block text-decoration-none text-white mt-2 px-4 position-relative"
+                  >Главная</a
+                >
+                <a
+                  href="#about"
+                  class="d-block text-decoration-none text-white mt-2 px-4 position-relative"
+                  >О нас</a
+                >
+                <a
+                  href="#class"
+                  class="d-block text-decoration-none text-white mt-2 px-4 position-relative"
+                  >Наша группа</a
+                >
+                <a
+                  href="#teacher"
+                  class="d-block text-decoration-none text-white mt-2 px-4 position-relative"
+                  >Наши учителя</a
+                >
+                <a
+                  href="#contact"
+                  class="d-block text-decoration-none text-white mt-2 px-4 position-relative"
+                  >Контакты</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col p-3">
+            <div class="box">
+              <div class="title fw-bold h4">Newsletter</div>
+              <form action="">
+                <input
+                  type="text"
+                  placeholder="Имя"
+                  class="form-control shadow-none fs-5 my-3"
+                />
+                <input
+                  type="email"
+                  placeholder="Эл адрес"
+                  class="form-control shadow-none fs-5 my-3"
+                />
+                <input
+                  type="submit"
+                  value="Записаться сейчас"
+                  class="form-control shadow-none fs-5 my-3 rounded-pill border-0 text-white"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- import js files -->
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
